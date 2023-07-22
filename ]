@@ -31,7 +31,10 @@ h1 {
 .dropdown {
   padding-left: 8%;
   position: relative;
+  background-clip: content-box;
   display: inline-block;
+  border-style: solid;
+  border-color: white;
 }
 
 /* Dropdown Content (Hidden by Default) */
