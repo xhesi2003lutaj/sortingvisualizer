@@ -1,0 +1,16 @@
+body {
+  background-image: url("jpg copy");
+  /*  background-image: url("https://img.peapix.com/3831d61389364ccdac7cb4a23526d443.jpg?attachment&modal"); */
+  /* background-size: cover; */
+  background-position: center center;
+  /* display: flex; */
+  flex-direction: column;
+  /* min-height: 100vh; */
+  /* margin: 0; */
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 180%;
+  font-weight: bold;
+}
