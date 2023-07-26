@@ -1,69 +1,5 @@
-slider {
-  padding-top: 300%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  height: 60px;
-  padding: 30px;
-  padding-left: 40px;
-  background: white;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0px 15px 40px #7e6d5766;
-}
-.slider label {
-  font-size: 24px;
-  font-weight: 400;
-  font-family: Open Sans;
-  padding-left: 100px;
-  /* padding-top: 300%;    doesnt work */
-  color: white;
-}
-.slider input[type="range"] {
-  width: 420px;
-  height: 2px;
-  background: white;
-  border: none;
-  outline: none;
-}
-sslider {
-  /* padding-left: 50%; */
-  /* padding-top: 300%; */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  height: 60px;
-  padding: 30px;
-  padding-left: 40px;
-  background: white;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0px 15px 40px #7e6d5766;
-}
-.sslider label {
-  font-size: 24px;
-  font-weight: 400;
-  font-family: Open Sans;
-  padding-left: 1100px;
-  /* padding-top: 3%; */
-  color: white;
-}
-.sslider input[type="range"] {
-  width: 420px;
-  height: 2px;
-  background: white;
-  border: none;
-  outline: none;
-}
-
 body {
-  background-image: url("jpg");
+  background-image: url("jpg copy");
   /*  background-image: url("https://img.peapix.com/3831d61389364ccdac7cb4a23526d443.jpg?attachment&modal"); */
   /* background-size: cover; */
   background-position: center center;
@@ -78,128 +14,28 @@ h1 {
   font-size: 180%;
   font-weight: bold;
 }
-/* Dropdown Button */
-.dropbtn {
+h2 {
+  padding-left: 8%;
   color: white;
-  border-style: solid;
-  background: transparent;
-  /* border-style: solid; */
-  padding: 20px;
-  font-size: 20px;
-  width: 200px;
-  border: none;
+  font-size: 140%;
+  font-weight: bold;
 }
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  padding-left: 5%;
-  /* padding-top: 0%;  it cannot go up with thw dropdown property */
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: transparent;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
+p {
   color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  padding: 20px;
-  font-size: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 120%;
 }
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #00bfff;
-  border-style: solid;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #00bfff;
-}
-sorts {
-  font-size: 30%;
-}
-/* play pase button */
-
-:root {
-  --button-height: 2rem;
-  --button-color: #edd;
-}
-
-html {
-  font-size: 10px;
-}
-
-.fake-player {
-  padding-left: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 4rem;
-  height: 4rem;
-  padding: 2rem;
-  border: 0.2rem solid var(--button-color);
-  border-radius: 50%;
-  filter: drop-shadow(0 0 3.1rem rgba(255, 255, 255, 0.8));
-}
-
-button {
-  margin: 0;
-  padding: 0;
-}
-
-.play {
-  height: 0;
-  width: 0;
-  margin-left: calc(2 * 0.14 * var(--button-height));
-  /*margin-left: 17px;*/
-  background: none;
-  border: none;
-  border-top: var(--button-height) solid transparent;
-  border-bottom: var(--button-height) solid transparent;
-  border-left: calc(var(--button-height) * 2 * 0.86) solid var(--button-color);
-}
-
-.pause {
-  position: relative;
-  background: none;
-  border: none;
-  height: calc(var(--button-height) * 2);
-  width: calc(var(--button-height) * 2 * 0.86);
-  &:before,
-  &:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 33%;
-    background: var(--button-color);
-  }
-  &:before {
-    left: 0;
-  }
-  &:after {
-    right: 0;
-  }
-}
-
-.hidden {
-  display: none;
-}
+/* .column { */
+/*   color: white; */
+/*   padding-left: 8%; */
+/*   float: left; */
+/*   width: 50%; */
+/* } */
+/**/
+/* /* Clear floats after the columns */
+/* .row:after { */
+/*   content: ""; */
+/*   display: table; */
+/*   clear: both; */
+/* } */
