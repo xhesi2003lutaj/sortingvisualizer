@@ -26,6 +26,9 @@ p {
   padding-right: 8%;
   font-size: 120%;
 }
+but {
+  padding-left: 8%;
+}
 /* .column { */
 /*   color: white; */
 /*   padding-left: 8%; */
