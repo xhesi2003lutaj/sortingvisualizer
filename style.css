@@ -26,9 +26,24 @@ p {
   padding-right: 8%;
   font-size: 120%;
 }
-but {
-  padding-left: 8%;
+.c-button {
+  box-sizing: border-box;
+  padding-left: 80%;
+  background: transparent;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  /* border-style: solid; */
+  padding: 20px;
+  font-size: 20px;
+  width: 200px;
+  border: none;
 }
+.c-button:hove {
+  background-color: #00bfff;
+  border-style: solid;
+}
+
 /* .column { */
 /*   color: white; */
 /*   padding-left: 8%; */

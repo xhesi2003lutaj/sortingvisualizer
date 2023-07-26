@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sorting visualizer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Master Alogrithms using this Sorting Visualizer</h1>
+    <div class="slider">
+      <label for="fader">Speed</label
+      ><input
+        type="range"
+        min="0"
+        max="100"
+        value="50"
+        id="fader"
+        step="20"
+        list="volsettings"
+      /><datalist id="volsettings">
+        <option>0</option>
+        <option>20</option>
+        <option>40</option>
+        <option>60</option>
+        <option>80</option>
+        <option>100</option>
+      </datalist>
+    </div>
+    <div class="sslider">
+      <label for="fader">Size</label
+      ><input
+        type="range"
+        min="0"
+        max="100"
+        value="50"
+        id="fader"
+        step="20"
+        list="volsettings"
+      /><datalist id="volsettings">
+        <option>0</option>
+        <option>20</option>
+        <option>40</option>
+        <option>60</option>
+        <option>80</option>
+        <option>100</option>
+      </datalist>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Algorithms</button>
+      <div class="dropdown-content">
+        <!-- Replace the button with an anchor tag -->
+        <a href="#" id="sortButton">Quicksort</a>
+        <div id="result"></div>
+        <a href="#" id="sortbubble">Bubble Sort</a>
+        <div id="bsort"></div>
+        <a href="#">Mergesort</a>
+
+        <a href="#">Countingsort</a>
+
+        <a href="#">Bubblesort</a>
+
+        <a href="#">Radixsort</a>
+      </div>
+    </div>
+    <!-- play-pause button -->
+    <div class="fake-player">
+      <button role="play" class="play"></button>
+      <button role="pause" class="pause hidden"></button>
+    </div>
+  </body>
+</html>
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!--   <head> -->
+<!--     <meta charset="UTF-8" /> -->
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<!--     <title>Quicksort Visualizer</title> -->
+<!--   </head> -->
+<!--   <body> -->
+<!--     <button onclick="sortArray()">Sort Array</button> -->
+<!--     <div id="result"></div> -->
+<!---->
+<!--     <script src="script.js"></script> -->
+<!--   </body> -->
+<!-- </html> -->
+<!---->
