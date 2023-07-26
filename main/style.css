@@ -14,3 +14,28 @@ h1 {
   font-size: 180%;
   font-weight: bold;
 }
+h2 {
+  padding-left: 8%;
+  color: white;
+  font-size: 140%;
+  font-weight: bold;
+}
+p {
+  color: white;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 120%;
+}
+/* .column { */
+/*   color: white; */
+/*   padding-left: 8%; */
+/*   float: left; */
+/*   width: 50%; */
+/* } */
+/**/
+/* /* Clear floats after the columns */
+/* .row:after { */
+/*   content: ""; */
+/*   display: table; */
+/*   clear: both; */
+/* } */
