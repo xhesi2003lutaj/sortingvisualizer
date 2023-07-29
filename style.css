@@ -43,6 +43,9 @@ p {
   color: rgb(244, 236, 248);
 }
 
+img {
+  padding-left: 18%;
+}
 /* .column { */
 /*   color: white; */
 /*   padding-left: 8%; */
