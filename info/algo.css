@@ -24,21 +24,21 @@ p {
   padding-right: 8%;
   font-size: 120%;
 }
-.c-button {
-  box-sizing: border-box;
-  padding-left: 80%;
-  background: transparent;
-  text-align: center;
+
+.button2 {
   color: white;
-  border-style: solid;
-  padding: 20px;
-  font-size: 20px;
-  width: 200px;
-  border: none;
+  position: relative;
+  font-size: 30px;
+  padding-left: 15%;
+  background-color: transparent;
+  border: transparent;
 }
-.c-button:hove {
-  background-color: #00bfff;
-  border-style: solid;
+.button2:hover {
+  /* display: block; */
+  /* background-color: #00bfff; */
+
+  padding-left: 11%;
+  color: rgb(244, 236, 248);
 }
 
 /* .column { */
@@ -54,9 +54,9 @@ p {
 /*   display: table; */
 /*   clear: both; */
 /* } */
-a:link {
-  color: navajowhite;
-}
-a:visited {
-  color: white;
-}
+/* a:link { */
+/*   color: navajowhite; */
+/* } */
+/* a:visited { */
+/*   color: white; */
+/* } */
