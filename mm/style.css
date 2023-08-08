@@ -14,6 +14,7 @@ slider {
   align-items: center;
   box-shadow: 0px 15px 40px #7e6d5766;
 }
+/*shkrimi i size speed*/
 .slider label {
   font-size: 24px;
   font-weight: 400;
@@ -22,6 +23,7 @@ slider {
   /* padding-top: 300%;    doesnt work */
   color: white;
 }
+/*sliding bar per te zgjedh size*/
 .slider input[type="range"] {
   width: 420px;
   height: 2px;
@@ -75,7 +77,8 @@ body {
 h1 {
   text-align: center;
   color: white;
-  font-size: 180%;
+  font-size: 310%;
+  padding-top: 2%;
   font-weight: bold;
 }
 /* Dropdown Button */
@@ -88,6 +91,9 @@ h1 {
   font-size: 20px;
   width: 200px;
   border: none;
+}
+.butonat {
+  /* padding-top: 10%; */
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -147,8 +153,13 @@ html {
   font-size: 10px;
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end; /* Center content to the right */
+  /* Other styles for the container */
+}
 .fake-player {
-  padding-left: 70%;
+  padding-left: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

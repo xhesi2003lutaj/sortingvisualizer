@@ -11,68 +11,72 @@
 
   <body>
     <h1>Master Alogrithms using this Sorting Visualizer</h1>
-    <div class="slider">
-      <label for="fader">Speed</label
-      ><input
-        type="range"
-        min="0"
-        max="100"
-        value="50"
-        id="fader"
-        step="20"
-        list="volsettings"
-      /><datalist id="volsettings">
-        <option>0</option>
-        <option>20</option>
-        <option>40</option>
-        <option>60</option>
-        <option>80</option>
-        <option>100</option>
-      </datalist>
-    </div>
-    <div class="sslider">
-      <label for="fader">Size</label
-      ><input
-        type="range"
-        min="0"
-        max="100"
-        value="50"
-        id="fader"
-        step="20"
-        list="volsettings"
-      /><datalist id="volsettings">
-        <option>0</option>
-        <option>20</option>
-        <option>40</option>
-        <option>60</option>
-        <option>80</option>
-        <option>100</option>
-      </datalist>
-    </div>
+    <div class="butonat">
+      <div class="slider">
+        <label for="fader">Speed</label
+        ><input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          id="fader"
+          step="20"
+          list="volsettings"
+        /><datalist id="volsettings">
+          <option>0</option>
+          <option>20</option>
+          <option>40</option>
+          <option>60</option>
+          <option>80</option>
+          <option>100</option>
+        </datalist>
+      </div>
+      <div class="sslider">
+        <label for="fader">Size</label
+        ><input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          id="fader"
+          step="20"
+          list="volsettings"
+        /><datalist id="volsettings">
+          <option>0</option>
+          <option>20</option>
+          <option>40</option>
+          <option>60</option>
+          <option>80</option>
+          <option>100</option>
+        </datalist>
+      </div>
 
-    <div class="dropdown">
-      <button class="dropbtn">Algorithms</button>
-      <div class="dropdown-content">
-        <!-- Replace the button with an anchor tag -->
-        <div class="sorts">
-          <a href="#" id="sortButton">Quicksort</a>
-          <div id="result"></div>
-          <a href="#" id="sortbubble">Bubble Sort</a>
-          <div id="bsort"></div>
-          <a href="#">Mergesort</a>
+      <div class="dropdown">
+        <button class="dropbtn">Algorithms</button>
+        <div class="dropdown-content">
+          <!-- Replace the button with an anchor tag -->
+          <div class="sorts">
+            <a href="#" id="sortButton">Quicksort</a>
+            <div id="result"></div>
+            <a href="#" id="sortbubble">Bubble Sort</a>
+            <div id="bsort"></div>
+            <a href="#">Mergesort</a>
 
-          <a href="#">Countingsort</a>
+            <a href="#">Countingsort</a>
 
-          <a href="#">Bubblesort</a>
+            <a href="#">Bubblesort</a>
 
-          <a href="#">Radixsort</a>
+            <a href="#">Radixsort</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- play-pause button -->
-    <div class="fake-player">
-      <button role="play" class="play"></button>
-      <button role="pause" class="pause hidden"></button>
+      <!-- play-pause button -->
+      <div class="container">
+        <div class="fake-player">
+          <button role="play" class="play"></button>
+          <button role="pause" class="pause hidden"></button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
